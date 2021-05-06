@@ -33,6 +33,12 @@ a {
     flex: 0 1 auto;
     align-self: auto;
   }
+  @media (min-width: 600px) {
+    a {
+      width: 38%;
+      box-sizing: content-box;
+    }
+  }
   a:hover {
     background-color: teal;
     color: white;
